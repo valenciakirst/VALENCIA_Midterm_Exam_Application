@@ -8,7 +8,7 @@ class ProductController extends Controller
 {
     public function show()
     {
-            return view('Movies')
+            return view('Product')
                 ->with('Movie1, The Greatest Show')
                 ->with('Movie2, KungFu Panda')
                 ->with('Movie3, The Amazing Spiderman')
